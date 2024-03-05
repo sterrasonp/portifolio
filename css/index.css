@@ -1,0 +1,48 @@
+@import url("components.css");
+@import url("display.css");
+@import url("fonts.css");
+@import url("padding.css");
+
+:root {
+  --color-bg: #222222;
+  --color-primary: #4e4d4d;
+  --color-contrast: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:active {
+  color: inherit;
+}
+
+body {
+  color: var(--color-contrast);
+  background-color: var(--color-bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  background: #444444;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}

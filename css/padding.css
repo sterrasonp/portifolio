@@ -1,0 +1,39 @@
+.p-1 {
+  padding: 1rem;
+}
+
+.p-t-1 {
+  padding-top: 1rem;
+}
+
+.p-r-1 {
+  padding-right: 1rem;
+}
+
+.p-b-1 {
+  padding-bottom: 1rem;
+}
+
+.p-l-1 {
+  padding-left: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-t-3 {
+  padding-top: 3rem;
+}
+
+.p-r-3 {
+  padding-right: 3rem;
+}
+
+.p-b-3 {
+  padding-bottom: 3rem;
+}
+
+.p-l-3 {
+  padding-left: 3rem;
+}

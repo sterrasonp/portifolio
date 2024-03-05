@@ -1,0 +1,104 @@
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.container {
+  padding-left: calc((100vw - 1440px) / 2);
+  padding-right: calc((100vw - 1440px) / 2);
+  width: 100%;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.flex-end {
+  justify-self: flex-end;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width{
+  width: 50%;
+}
+
+.black-bg {
+  background: black;
+}
+
+.bg-gray {
+  background: #444444;
+}
+
+.full-height {
+  height: 100%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--color-primary);
+  color: white;
+}
+
+form input::placeholder {
+  color: white;
+}
+
+form textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--color-primary);
+  color: white;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+form textarea::placeholder {
+  color: white;
+}
+
+form button {
+  background-color: black !important;
+  color: white;
+  width: 100% !important;
+}
